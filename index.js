@@ -27,6 +27,26 @@ function init() {
             message: "Enter a keyword or hexidecimal number to determine the color of your shape: "
         },
     ])
+
+    .then(function (results) {
+        let shapeOption = results.shape;
+        let svgWrap;
+        let shape;
+        switch (shapeOption) {
+            case "Triangle":
+                shape = new Triangle()
+                break;
+            case "Circle":
+                shape = new Circle()
+                break;
+             case "Square":
+                shape = new Square()
+                break;
+            default:
+                console.log('default');
+                break;
+        }
+    })
 }
 
 init();
