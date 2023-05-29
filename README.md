@@ -1,8 +1,6 @@
-# svg-logo-generator
-Creating a logo generator using Node
+# svg-logo-generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 
-
-## User Story 
+## User Story
 
 AS a freelance web developer
 I WANT to generate a simple logo for my projects
