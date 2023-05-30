@@ -55,7 +55,7 @@ function init() {
         <text x="127" y="115" font-size="1.5em" fill="${shape.textColor}">${shape.text}</text>
         </svg>`
 
-        fs.writeFile("logo svg", svgWrap, (err) => 
+        fs.writeFileSync("./examples/logo.svg", svgWrap, (err) => 
         err ? console.error(err) : console.log("Generated logo.svg"))
     })
 }
