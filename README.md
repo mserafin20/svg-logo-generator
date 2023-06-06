@@ -21,6 +21,7 @@ The install command for this application is "npm i"
 
 ## Usage
 Enter node "index.js" and go through the prompts to create your own SVG logo.
+
 [SVG Logo Generator.webm](https://github.com/mserafin20/svg-logo-generator/assets/125826335/29ba3b41-2c11-48a7-8335-e71df3e12f4d)
 
 [If video is unresponsive click here for video link](https://drive.google.com/file/d/1P53jLA2aq301IT1cVUfgTVyEN3upJYVB/view)
