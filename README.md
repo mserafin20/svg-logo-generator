@@ -22,6 +22,8 @@ The install command for this application is "npm i"
 ## Usage
 Enter node "index.js" and go through the prompts to create your own SVG logo.
 
+[If video is unresponsive click here for video link](https://drive.google.com/file/d/1P53jLA2aq301IT1cVUfgTVyEN3upJYVB/view)
+
 ## License
 This project utilized the MIT License. 
 
