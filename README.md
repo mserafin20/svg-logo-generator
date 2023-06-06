@@ -1,24 +1,40 @@
 # svg-logo-generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 
-## User Story
+## Description
 
-AS a freelance web developer
-I WANT to generate a simple logo for my projects
-SO THAT I don't have to pay a graphic designer
+For this project, we were assigned to build a Node.js command-line application that takes user input to help create a logo in the form of an SVG file. The application asks the user to enter three characters, pick text color, selct one of three shapes, and then choose a color for the selected shape.
 
-## Acceptance Criteria 
+## Table of Contents
+[Installation](#installation)
 
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for text
-THEN I can enter up to three characters
-WHEN I am prompted for the text color
-THEN I can enter a color keyword (OR a hexadecimal number)
-WHEN I am prompted for a shape
-THEN I am presented with a list of shapes to choose from: circle, triangle, and square
-WHEN I am prompted for the shape's color
-THEN I can enter a color keyword (OR a hexadecimal number)
-WHEN I have entered input for all the prompts
-THEN an SVG file is created named `logo.svg`
-AND the output text "Generated logo.svg" is printed in the command line
-WHEN I open the `logo.svg` file in a browser
-THEN I am shown a 300x200 pixel image that matches the criteria I entered
+  [Usage](#usage)
+
+  [License](#license)
+
+  [Test](#test)
+
+  [Questions](#questions) 
+
+  ## Installation 
+
+The install command for this application is "npm i"
+
+## Usage
+Enter node "index.js" and go through the prompts to create your own SVG logo.
+
+## License
+This project utilized the MIT License. 
+
+  For more information see link: (https://opensource.org/licenses/MIT)
+
+## Tests
+Use the command "npm run test" or "npx jest" to run the testing files
+
+## Questions
+
+  ### Additional information and links are below, including my personal github account and email for contact information:
+
+  [Github](https://github.com/mserafin20)
+
+  [Email](mailto:mmserafin20@gmail.com)
+
